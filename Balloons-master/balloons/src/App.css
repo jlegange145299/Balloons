@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+font-family: theBold;
+src: url(./theboldfont.ttf);
+}
+
+input{
+  border-radius: 23px;
+  border: none;
+  padding: 10px;
+}
+
+p{
+  margin: 2px;
+}
+
+.Home{
+  height: 100vh;
+  overflow: hidden;
+  font-family: "theBold"
+}
+
+.Panel{
+  position: absolute;
+  width: 100%;
+  color: white;
+}
+
+.Panel h1{
+  font-size: 5em;
+}
+
+.Login{
+  background-color: #0000006e;
+    padding: 10px 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+.midnight-blue-flat-button {
+  font-family: thebold;
+  position: relative;
+  vertical-align: top;
+  width: 45%;
+  height: 50px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2c3e50;
+  border: 0;
+  border-bottom: 2px solid #22303f;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #22303f;
+  box-shadow: inset 0 -2px #22303f;
+}
+.midnight-blue-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
